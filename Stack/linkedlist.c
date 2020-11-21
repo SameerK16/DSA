@@ -104,4 +104,5 @@ void display(node *head)
         printf("%d ", temp->data);
         temp = temp->next;
     }
+    printf("\n");
 }

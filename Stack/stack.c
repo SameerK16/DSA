@@ -48,7 +48,7 @@ void stack_ll()
         case 6:
             tempnode = (node *)malloc(sizeof(node));
             temp = (tempnode == NULL) ? 1 : 0;
-            printf("isEmpty : %d\n", temp);
+            printf("isFull : %d\n", temp);
             break;
         }
     }
