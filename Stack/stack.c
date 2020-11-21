@@ -42,13 +42,13 @@ void stack_ll()
 
         case 5:
             temp = (getlength(first) > 0) ? 0 : 1;
-            printf("isEmpty : %d", temp);
+            printf("isEmpty : %d\n", temp);
             break;
 
         case 6:
             tempnode = (node *)malloc(sizeof(node));
             temp = (tempnode == NULL) ? 1 : 0;
-            printf("isEmpty : %d", temp);
+            printf("isEmpty : %d\n", temp);
             break;
         }
     }
