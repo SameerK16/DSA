@@ -49,6 +49,7 @@ void que()
             temp = (node *)malloc(sizeof(node));
             pos = (temp == NULL) ? 1 : 0
             printf("isFull : %d", pos);
+            free(temp);
             break;
 
         }
